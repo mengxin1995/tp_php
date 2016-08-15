@@ -1,0 +1,36 @@
+[2016-04-07 18:34:09] /admin/index.php?act=store&op=com_a ( act=store&op=com_a ) 
+ERR: Db Error: Unknown column 'zu' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `mall_monitor_cominfo` WHERE ( com_ip IN ('1','2','3','') ) AND ( zu = '1' ) LIMIT 1  
+[2016-04-07 18:34:09] /admin/index.php?act=store&op=com_a ( act=store&op=com_a ) 
+ERR: Db Error: Unknown column 'zu' in 'where clause'
+SELECT com_ip,username,com_name,com_state FROM `mall_monitor_cominfo` WHERE ( com_ip IN ('1','2','3','') ) AND ( zu = '1' ) ORDER BY com_id asc LIMIT 0,20  
+[2016-04-07 18:34:19] /admin/index.php?act=store&op=com_a ( act=store&op=com_a ) 
+ERR: Db Error: Unknown column 'zu' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `mall_monitor_cominfo` WHERE ( com_ip IN ('1','2','3','') ) AND ( zu = '1' ) LIMIT 1  
+[2016-04-07 18:34:19] /admin/index.php?act=store&op=com_a ( act=store&op=com_a ) 
+ERR: Db Error: Unknown column 'zu' in 'where clause'
+SELECT com_ip,username,com_name,com_state FROM `mall_monitor_cominfo` WHERE ( com_ip IN ('1','2','3','') ) AND ( zu = '1' ) ORDER BY com_id asc LIMIT 0,20  
+[2016-04-07 18:34:21] /admin/index.php?act=store&op=com_a ( act=store&op=com_a ) 
+ERR: Db Error: Unknown column 'zu' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `mall_monitor_cominfo` WHERE ( com_ip IN ('1','2','3','') ) AND ( zu = '1' ) LIMIT 1  
+[2016-04-07 18:34:21] /admin/index.php?act=store&op=com_a ( act=store&op=com_a ) 
+ERR: Db Error: Unknown column 'zu' in 'where clause'
+SELECT com_ip,username,com_name,com_state FROM `mall_monitor_cominfo` WHERE ( com_ip IN ('1','2','3','') ) AND ( zu = '1' ) ORDER BY com_id asc LIMIT 0,20  
+[2016-04-07 18:34:31] /admin/index.php?act=store&op=com_a ( act=store&op=com_a ) 
+ERR: Db Error: Unknown column 'zu' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `mall_monitor_cominfo` WHERE ( com_ip IN ('1','2','3','') ) AND ( zu = '1' ) LIMIT 1  
+[2016-04-07 18:34:31] /admin/index.php?act=store&op=com_a ( act=store&op=com_a ) 
+ERR: Db Error: Unknown column 'zu' in 'where clause'
+SELECT com_ip,username,com_name,com_state FROM `mall_monitor_cominfo` WHERE ( com_ip IN ('1','2','3','') ) AND ( zu = '1' ) ORDER BY com_id asc LIMIT 0,20  
+[2016-04-07 21:43:44] /admin/index.php?act=store&op=store_msg ( act=store&op=store_msg ) 
+ERR: Db Error: Unknown column 'is_read' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `mall_store` WHERE ( is_read = '1' ) LIMIT 1  
+[2016-04-07 21:43:44] /admin/index.php?act=store&op=store_msg ( act=store&op=store_msg ) 
+ERR: Db Error: Unknown column 'sender' in 'field list'
+SELECT sender,store_name,store_msg,send_time,is_read FROM `mall_store` WHERE ( is_read = '1' ) ORDER BY store_id desc LIMIT 0,20  
+[2016-04-07 21:43:46] /admin/index.php?act=store&op=store_msg ( act=store&op=store_msg ) 
+ERR: Db Error: Unknown column 'is_read' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `mall_store` WHERE ( is_read = '1' ) LIMIT 1  
+[2016-04-07 21:43:46] /admin/index.php?act=store&op=store_msg ( act=store&op=store_msg ) 
+ERR: Db Error: Unknown column 'sender' in 'field list'
+SELECT sender,store_name,store_msg,send_time,is_read FROM `mall_store` WHERE ( is_read = '1' ) ORDER BY store_id desc LIMIT 0,20  

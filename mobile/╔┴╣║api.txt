@@ -1,0 +1,182 @@
+﻿1.用户注册流程
+访问地址：mobile/index.php?act=zjcuntao&op=register
+POST的参数：mobile=***&name=***&station_id=***&password=***&pay_password=***【说明：mobile是用户输入的手机号码，name是用户输入的名字，station_id是通过二维码扫描获取到的站长id,password是登陆密码,pay_password是支付密码】
+正确的返回内容：
+{"code":200,"datas":{"member_id":9,"username":"13868016456","key":"908c601a767922c8c772e64cdd149d86"}}
+错误的返回内容：
+{"code":200,"datas":{"error":"\u7528\u6237\u540d\u5df2\u5b58\u5728"}}
+
+2.二维码扫描
+2.1 二维码地址：http://shop.cuncuntu.com/mobile/index.php?act=zjcuntao&op=qrcode&app=yes&station_id=2
+该地址二维码可以通过工具生成。
+当第一次扫描的时候，会下载app，当用app扫描的时候，需要把app=yes改为app=no，这样就会获取站长的地址信息，可以读取到app客户端里面。
+闪购app的文件名为flashgo.apk
+
+3.充值卡充值接口
+访问地址：mobile/index.php?act=zjcuntao&op=rechargecard_add
+POST的参数：member_id=***&member_name=***&rc_sn=***【说明：member_id是当前用户的id，member_name是用户名（也就是手机号），rc_sn是充值卡卡号。】
+正确的返回内容：
+{"code":200,"datas":{"data":"\u5e73\u53f0\u5145\u503c\u5361\u4f7f\u7528\u6210\u529f"}}
+错误的返回内容：
+{"code":200,"datas":{"error":"******************"}}
+4.增加支付密码重置接口
+访问地址：mobile/index.php?act=zjcuntao&op=resetPaypwd
+POST的参数：member_name=***&member_passwd=***&paypwd=***【说明：member_name是当前用户的用户名，member_passwd是当前用户的密码,paypwd是重置后的密码】
+正确的返回内容：
+{"code":200,"datas":{"data":"success"}}
+错误的返回内容：
+{"code":200,"datas":{"error":"failed"}}
+{"code":200,"datas":{"error":"wrong"}}//用户名或者密码错误的时候
+
+5.增加支付密码重置接口，充值为111111
+访问地址：mobile/index.php?act=zjcuntao&op=resetPaypwd2
+POST的参数：member_name=***&token=***&paypwd=***【说明：member_name是当前用户的用户名，token是当前用户的token,paypwd是重置后的密码】
+正确的返回内容：
+{"code":200,"datas":{"data":"success"}}
+错误的返回内容：
+{"code":200,"datas":{"error":"failed"}}
+{"code":200,"datas":{"error":"wrong"}}//用户名或者密码错误的时候
+
+
+6.退款退货接口
+6.1 退款接口：
+访问地址：mobile/index.php?act=member_refund&op=add_refund_all
+POST的参数：key=***&order_id=***&buyer_message=***&refund_pic1=***&refund_pic2=***&refund_pic3=***
+参数说明：
+    key：用户的key，必须有
+    order_id：订单id，必须有
+    buyer_message：退款说明，必须有
+    refund_pic1~3：退款图片，可选
+正确的返回内容：
+{"code":200,"datas":{"data":"退款成功！"}}
+错误的返回内容：
+{"code":200,"datas":{"error":"参数错误"}}
+{"code":200,"datas":{"error":"退款失败"}}
+6.2 获取退货原因接口：
+访问地址：mobile/index.php?act=member_refund&op=get_reasonlist
+POST的参数：key=***
+参数说明：
+    key：用户的key，必须有
+返回内容：
+{"code":200,"datas":{数据列表}}
+
+该步骤是为6.3提供reason_id的。
+
+6.3 退货接口：
+访问地址：mobile/index.php?act=member_refund&op=add_refund
+POST的参数：key=***&order_id=***&goods_id=***&refund_amount=***&goods_num=***&reason_id=***&refund_type=1|2&buyer_message=***&refund_pic1=***&refund_pic2=***&refund_pic3=***
+参数说明：
+    key：用户的key，必须有
+    order_id：订单id，必须有
+    goods_id：商品在订单中的id，必须有，注意：不是商品的id
+    refund_amount：退款金额，必须有，且不能大于商品购买价
+    goods_num：退款商品数量，必须有，且不能大于商品购买量
+    reason_id：退款原因编号，必须有，来自6.2获取的退款原因列表
+    refund_type：退款类型，必须有，值等于1或者2，1为退款,2为退货
+    buyer_message：退款说明，必须有
+    refund_pic1~3：退款图片，可选
+
+正确的返回内容：
+{"code":200,"datas":{"data":"退款成功！"}}
+错误的返回内容：
+{"code":200,"datas":{"error":"参数错误"}}
+{"code":200,"datas":{"error":"退款失败"}}
+
+6.4 查询退款退货状态接口：
+访问地址：mobile/index.php?act=member_refund&op=getRefundInfo
+POST的参数：key=***&order_id=***
+参数说明：
+    key：用户的key，必须有
+    order_id：订单id，必须有
+
+正确的返回内容：
+{"code":200,"datas":{数据列表}}
+错误的返回内容：
+{"code":200,"datas":{"error":"没有查到退款退货信息！"}}
+
+6.5 查询自提点列表接口：
+访问地址：mobile/index.php?act=member_address&op=delivery_list
+POST的参数：area_id=***&key=***
+参数说明：
+    area_id：上级地址传值
+    key：用户的key，必须有
+返回内容：
+{"code":200,"datas":{数据列表}}
+
+6.6 查询自提点列表接口2：
+访问地址：mobile/index.php?act=zjcuntao&op=delivery_list
+POST的参数：area_id=***
+参数说明：
+    area_id：上级地址传值
+返回内容：
+{"code":200,"datas":{数据列表}}
+6.7 获取地区列表22：
+访问地址：mobile/index.php?act=zjcuntao&op=area_list
+
+参数说明：
+
+返回内容：
+{"code":200,"datas":{数据列表}}
+
+7 查询账户余额变动列表接口
+7.1 查询账户充值明细列表接口：
+访问地址：mobile/index.php?act=balancechange_log&op=recharge_list
+POST的参数：member_id=*** pdr_sn=*** key=*** page=*** size=***
+参数说明：
+    member_id：会员id  pdr_sn：充值单号搜索传值 key：用户的key，必须有
+    page:当前的页数,默认为第一页;size:每页记录数量
+返回内容：
+{"code":200,"datas":{数据列表}}
+
+7.2 查询账户余额提现列表接口：
+访问地址：mobile/index.php?act=balancechange_log&op=pd_cash_list
+POST的参数：member_id=*** pdr_sn=*** pdc_payment_state=*** key=***  page=*** size=***
+参数说明：
+    member_id：会员id   key：用户的key，必须有 pdr_sn：申请单号搜索传值 pdc_payment_state：状态{已支付||未支付}
+    page:当前的页数,默认为第一页;size:每页记录数量
+返回内容：
+{"code":200,"datas":{数据列表}}
+
+7.3 查询账户充值卡记录列表接口：
+访问地址：mobile/index.php?act=balancechange_log&op=rcb_log_list
+POST的参数：member_id=*** description=*** key=*** page=*** size=***
+参数说明：
+    member_id：会员id   key：用户的key，必须有 description：关键字搜索传值
+    page:当前的页数,默认为第一页;size:每页记录数量
+返回内容：
+{"code":200,"datas":{数据列表}}
+
+7.4 查询账户余额日志列表接口：
+访问地址：mobile/index.php?act=balancechange_log&op=pd_log_list
+POST的参数：member_id=*** lg_desc=*** key=*** page=*** size=***
+参数说明：
+    member_id：会员id  key：用户的key，必须有  lg_desc：订单号号搜索传值
+    page:当前的页数,默认为第一页;size:每页记录数量
+返回内容：
+{"code":200,"datas":{数据列表}}
+
+8.提现接口
+访问地址：mobile/index.php?act=zjcuntao&op=pd_cash_add
+POST的参数：key=***&pdc_amount=***&password=***&pdc_bank_name=***&pdc_bank_no=***&pdc_bank_user=***
+参数说明：
+    key：用户的key，必须有; pdc_amount:提现金额,必须有;password:支付密码,必须有;pdc_bank_name:收款银行,必须有;pdc_bank_no:收款帐号,必须有;pdc_bank_user:收款人,必须有
+返回内容：
+成功返回:
+{"code":200,"datas":{"申请成功,等待审核"}}
+失败返回:
+{"code":200,"datas":{"error":"支付密码错误"}}
+{"code":200,"datas":{"error":"余额不足，提现失败"}}
+{"code":200,"datas":{"error":"提现失败"}}
+{"code":200,"datas":{"error":"提现失败2"}}
+
+9.客户端微信支付相关参数
+访问地址：mobile/index.php?act=wx_app_pay&op=plat
+POST的参数：key=***&pay_sn=***
+参数说明：
+    key：用户的key，必须有;
+    pay_sn:订单号,必须有.
+返回内容：
+错误返回:
+{"code":200,"datas":{"error":"*******"}}
+成功返回:
+{"code":200,"datas":{"....."}}

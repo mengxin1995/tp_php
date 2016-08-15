@@ -1,0 +1,3 @@
+[2016-03-25 22:25:27] /shop/index.php?act=member&op=ajax_load_sns_info ( act=member&op=ajax_load_sns_info ) 
+ERR: Db Error: Table 'mall1.mall_circle_member' doesn't exist
+SELECT * FROM `mall_circle_member` WHERE ( member_id = '3358' ) LIMIT 1000  

@@ -1,0 +1,87 @@
+[2016-04-26 19:13:04] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'com_id' in 'where clause'
+UPDATE `mall_monitor_cpu` SET com_yujing='注意未能在指定时间收集到数据. ' WHERE ( com_id = NULL )
+[2016-04-26 19:13:04] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'com_id' in 'where clause'
+UPDATE `mall_monitor_cpu` SET com_yujing='注意未能在指定时间收集到数据. ' WHERE ( com_id = NULL )
+[2016-04-26 19:13:04] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'com_id' in 'where clause'
+UPDATE `mall_monitor_cpu` SET com_yujing='注意未能在指定时间收集到数据. ' WHERE ( com_id = NULL )
+[2016-04-26 19:14:39] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'com_id' in 'where clause'
+UPDATE `mall_monitor_cpu` SET com_yujing='注意未能在指定时间收集到数据. ' WHERE ( com_id = NULL )
+[2016-04-26 19:14:39] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'com_id' in 'where clause'
+UPDATE `mall_monitor_cpu` SET com_yujing='注意未能在指定时间收集到数据. ' WHERE ( com_id = NULL )
+[2016-04-26 19:14:39] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'com_id' in 'where clause'
+UPDATE `mall_monitor_cpu` SET com_yujing='注意未能在指定时间收集到数据. ' WHERE ( com_id = NULL )
+[2016-04-26 19:14:42] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'com_id' in 'where clause'
+UPDATE `mall_monitor_cpu` SET com_yujing='注意未能在指定时间收集到数据. ' WHERE ( com_ip = NULL ) AND ( com_id = NULL )
+[2016-04-26 19:14:42] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'com_id' in 'where clause'
+UPDATE `mall_monitor_cpu` SET com_yujing='注意未能在指定时间收集到数据. ' WHERE ( com_ip = NULL ) AND ( com_id = NULL )
+[2016-04-26 19:14:43] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'com_id' in 'where clause'
+UPDATE `mall_monitor_cpu` SET com_yujing='注意未能在指定时间收集到数据. ' WHERE ( com_ip = NULL ) AND ( com_id = NULL )
+[2016-04-26 19:14:43] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'com_id' in 'where clause'
+UPDATE `mall_monitor_cpu` SET com_yujing='注意未能在指定时间收集到数据. ' WHERE ( com_ip = NULL ) AND ( com_id = NULL )
+[2016-04-26 19:14:44] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'com_id' in 'where clause'
+UPDATE `mall_monitor_cpu` SET com_yujing='注意未能在指定时间收集到数据. ' WHERE ( com_ip = NULL ) AND ( com_id = NULL )
+[2016-04-26 19:14:44] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'com_id' in 'where clause'
+UPDATE `mall_monitor_cpu` SET com_yujing='注意未能在指定时间收集到数据. ' WHERE ( com_ip = NULL ) AND ( com_id = NULL )
+[2016-04-26 19:14:45] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'com_id' in 'where clause'
+UPDATE `mall_monitor_cpu` SET com_yujing='注意未能在指定时间收集到数据. ' WHERE ( com_ip = NULL ) AND ( com_id = NULL )
+[2016-04-26 19:14:45] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'com_id' in 'where clause'
+UPDATE `mall_monitor_cpu` SET com_yujing='注意未能在指定时间收集到数据. ' WHERE ( com_ip = NULL ) AND ( com_id = NULL )
+[2016-04-26 19:14:45] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'com_id' in 'where clause'
+UPDATE `mall_monitor_cpu` SET com_yujing='注意未能在指定时间收集到数据. ' WHERE ( com_ip = NULL ) AND ( com_id = NULL )
+[2016-04-26 19:15:58] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'com_id' in 'where clause'
+UPDATE `mall_monitor_cpu` SET com_yujing='注意未能在指定时间收集到数据. ' WHERE ( com_id = NULL )
+[2016-04-26 19:15:58] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'com_id' in 'where clause'
+UPDATE `mall_monitor_cpu` SET com_yujing='注意未能在指定时间收集到数据. ' WHERE ( com_id = NULL )
+[2016-04-26 19:15:58] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'com_id' in 'where clause'
+UPDATE `mall_monitor_cpu` SET com_yujing='注意未能在指定时间收集到数据. ' WHERE ( com_id = NULL )
+[2016-04-26 19:16:24] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'com_id' in 'where clause'
+UPDATE `mall_monitor_cpu` SET com_yujing='注意未能在指定时间收集到数据. ' WHERE ( com_id = NULL )
+[2016-04-26 19:16:24] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'com_id' in 'where clause'
+UPDATE `mall_monitor_cpu` SET com_yujing='注意未能在指定时间收集到数据. ' WHERE ( com_id = NULL )
+[2016-04-26 19:16:24] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'com_id' in 'where clause'
+UPDATE `mall_monitor_cpu` SET com_yujing='注意未能在指定时间收集到数据. ' WHERE ( com_id = NULL )
+[2016-04-26 19:35:16] /admin/index.php?act=store&op=com_state ( act=store&op=com_state ) 
+ERR: Db Error: Table 'mall.mall_monitor_cpu and monitor_cominfo' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_monitor_cpu and monitor_cominfo` WHERE monitor_cpu.com_ip=monitor_cominfo.com_ip LIMIT 1  
+[2016-04-26 19:35:16] /admin/index.php?act=store&op=com_state ( act=store&op=com_state ) 
+ERR: Db Error: Table 'mall.mall_monitor_cpu and monitor_cominfo' doesn't exist
+SELECT monitor_cpu.*,monitor_cominfo.com_name FROM `mall_monitor_cpu and monitor_cominfo` WHERE monitor_cpu.com_ip=monitor_cominfo.com_ip ORDER BY monitor_cpu.cpu_id asc LIMIT 0,20  
+[2016-04-26 19:35:43] /admin/index.php?act=store&op=com_state ( act=store&op=com_state ) 
+ERR: Db Error: Table 'mall.mall_monitor_cpu and monitor_cominfo' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_monitor_cpu and monitor_cominfo` WHERE monitor_cpu.com_ip=monitor_cominfo.com_ip LIMIT 1  
+[2016-04-26 19:35:43] /admin/index.php?act=store&op=com_state ( act=store&op=com_state ) 
+ERR: Db Error: Table 'mall.mall_monitor_cpu and monitor_cominfo' doesn't exist
+SELECT monitor_cpu.*,monitor_cominfo.com_name FROM `mall_monitor_cpu and monitor_cominfo` WHERE monitor_cpu.com_ip=monitor_cominfo.com_ip ORDER BY monitor_cpu.cpu_id asc LIMIT 0,20  
+[2016-04-26 19:39:35] /admin/index.php?act=store&op=com_state ( act=store&op=com_state ) 
+ERR: Db Error: Table 'mall.mall_monitor_cpu and mall_monitor_cominfo' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_monitor_cpu and mall_monitor_cominfo` WHERE mall_monitor_cpu.com_ip=mall_monitor_cominfo.com_ip LIMIT 1  
+[2016-04-26 19:39:35] /admin/index.php?act=store&op=com_state ( act=store&op=com_state ) 
+ERR: Db Error: Table 'mall.mall_monitor_cpu and mall_monitor_cominfo' doesn't exist
+SELECT mall_monitor_cpu.*,mall_monitor_cominfo.com_name FROM `mall_monitor_cpu and mall_monitor_cominfo` WHERE mall_monitor_cpu.com_ip=mall_monitor_cominfo.com_ip ORDER BY mall_monitor_cpu.cpu_id asc LIMIT 0,20  
+[2016-04-26 19:39:35] /admin/index.php?act=store&op=com_state ( act=store&op=com_state ) 
+ERR: Db Error: Table 'mall.mall_monitor_cpu and mall_monitor_cominfo' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_monitor_cpu and mall_monitor_cominfo` WHERE mall_monitor_cpu.com_ip=mall_monitor_cominfo.com_ip LIMIT 1  
+[2016-04-26 19:39:35] /admin/index.php?act=store&op=com_state ( act=store&op=com_state ) 
+ERR: Db Error: Table 'mall.mall_monitor_cpu and mall_monitor_cominfo' doesn't exist
+SELECT mall_monitor_cpu.*,mall_monitor_cominfo.com_name FROM `mall_monitor_cpu and mall_monitor_cominfo` WHERE mall_monitor_cpu.com_ip=mall_monitor_cominfo.com_ip ORDER BY mall_monitor_cpu.cpu_id asc LIMIT 0,20  

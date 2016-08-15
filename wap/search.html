@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>搜索</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+<header class="main">
+    <div class="header-wrap">
+        <a href="javascript:history.back();" class="header-back"><span>返回</span></a>
+        <div class="top">
+            <div class="search_range">
+                <select id="choose" style="border: 0px;font-size: 14px;height: 100%;width: 100%;border-radius: 0px;">
+                    <option>商品</option>
+                    <option>店铺</option>
+                </select>
+            </div>
+            <input type="text" class="search-input clr-999" value="" id="keyword"/>
+        </div>
+        <a href="javascript:void(0);" class="search-btn"></a>
+    </div>
+</header>
+<input type="hidden" name="referurl">
+<script type="text/javascript" src="js/config.js"></script>
+<script type="text/javascript" src="js/zepto.min.js"></script>
+<script type="text/javascript" src="js/template.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,225 @@
+[2016-04-06 15:50:40] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_cms_article' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_cms_article` WHERE ( article_state = '2' ) LIMIT 1  
+[2016-04-06 15:50:40] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_circle' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_circle` WHERE ( circle_status = '2' ) LIMIT 1  
+[2016-04-06 16:19:18] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_cms_article' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_cms_article` WHERE ( article_state = '2' ) LIMIT 1  
+[2016-04-06 16:19:18] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_circle' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_circle` WHERE ( circle_status = '2' ) LIMIT 1  
+[2016-04-06 16:20:06] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_cms_article' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_cms_article` WHERE ( article_state = '2' ) LIMIT 1  
+[2016-04-06 16:20:06] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_circle' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_circle` WHERE ( circle_status = '2' ) LIMIT 1  
+[2016-04-06 16:20:11] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_cms_article' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_cms_article` WHERE ( article_state = '2' ) LIMIT 1  
+[2016-04-06 16:20:11] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_circle' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_circle` WHERE ( circle_status = '2' ) LIMIT 1  
+[2016-04-06 16:20:32] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_cms_article' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_cms_article` WHERE ( article_state = '2' ) LIMIT 1  
+[2016-04-06 16:20:32] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_circle' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_circle` WHERE ( circle_status = '2' ) LIMIT 1  
+[2016-04-06 16:20:47] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_cms_article' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_cms_article` WHERE ( article_state = '2' ) LIMIT 1  
+[2016-04-06 16:20:47] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_circle' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_circle` WHERE ( circle_status = '2' ) LIMIT 1  
+[2016-04-06 16:37:11] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_cms_article' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_cms_article` WHERE ( article_state = '2' ) LIMIT 1  
+[2016-04-06 16:37:11] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_circle' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_circle` WHERE ( circle_status = '2' ) LIMIT 1  
+[2016-04-06 16:38:14] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_cms_article' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_cms_article` WHERE ( article_state = '2' ) LIMIT 1  
+[2016-04-06 16:38:14] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_circle' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_circle` WHERE ( circle_status = '2' ) LIMIT 1  
+[2016-04-06 16:38:37] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_cms_article' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_cms_article` WHERE ( article_state = '2' ) LIMIT 1  
+[2016-04-06 16:38:37] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_circle' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_circle` WHERE ( circle_status = '2' ) LIMIT 1  
+[2016-04-06 16:41:03] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_cms_article' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_cms_article` WHERE ( article_state = '2' ) LIMIT 1  
+[2016-04-06 16:41:03] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_circle' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_circle` WHERE ( circle_status = '2' ) LIMIT 1  
+[2016-04-06 16:41:20] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_cms_article' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_cms_article` WHERE ( article_state = '2' ) LIMIT 1  
+[2016-04-06 16:41:20] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_circle' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_circle` WHERE ( circle_status = '2' ) LIMIT 1  
+[2016-04-06 16:42:16] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_cms_article' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_cms_article` WHERE ( article_state = '2' ) LIMIT 1  
+[2016-04-06 16:42:16] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_circle' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_circle` WHERE ( circle_status = '2' ) LIMIT 1  
+[2016-04-06 16:42:58] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_cms_article' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_cms_article` WHERE ( article_state = '2' ) LIMIT 1  
+[2016-04-06 16:42:58] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_circle' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_circle` WHERE ( circle_status = '2' ) LIMIT 1  
+[2016-04-06 16:43:15] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_cms_article' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_cms_article` WHERE ( article_state = '2' ) LIMIT 1  
+[2016-04-06 16:43:15] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_circle' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_circle` WHERE ( circle_status = '2' ) LIMIT 1  
+[2016-04-06 17:06:26] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Table 'mall1.mall_monitor_cominfo' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_monitor_cominfo` WHERE ( com_state = '0' ) LIMIT 1  
+[2016-04-06 17:06:26] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Table 'mall1.mall_monitor_cominfo' doesn't exist
+SELECT com_ip,username,com_name,com_state FROM `mall_monitor_cominfo` WHERE ( com_state = '0' ) ORDER BY store_id desc LIMIT 0,20  
+[2016-04-06 17:06:28] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Table 'mall1.mall_monitor_cominfo' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_monitor_cominfo` WHERE ( com_state = '0' ) LIMIT 1  
+[2016-04-06 17:06:28] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Table 'mall1.mall_monitor_cominfo' doesn't exist
+SELECT com_ip,username,com_name,com_state FROM `mall_monitor_cominfo` WHERE ( com_state = '0' ) ORDER BY store_id desc LIMIT 0,20  
+[2016-04-06 17:06:31] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Table 'mall1.mall_monitor_cominfo' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_monitor_cominfo` WHERE ( com_state = '0' ) LIMIT 1  
+[2016-04-06 17:06:31] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Table 'mall1.mall_monitor_cominfo' doesn't exist
+SELECT com_ip,username,com_name,com_state FROM `mall_monitor_cominfo` WHERE ( com_state = '0' ) ORDER BY store_id desc LIMIT 0,20  
+[2016-04-06 17:08:00] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Table 'mall1.mall_monitor_cominfo' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_monitor_cominfo` WHERE ( com_state = '0' ) LIMIT 1  
+[2016-04-06 17:08:00] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Table 'mall1.mall_monitor_cominfo' doesn't exist
+SELECT com_ip,username,com_name,com_state FROM `mall_monitor_cominfo` WHERE ( com_state = '0' ) ORDER BY store_id desc LIMIT 0,20  
+[2016-04-06 17:08:18] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Table 'mall1.mall_monitor_cominfo' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_monitor_cominfo` WHERE ( com_state = '0' ) LIMIT 1  
+[2016-04-06 17:08:18] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Table 'mall1.mall_monitor_cominfo' doesn't exist
+SELECT com_ip,username,com_name,com_state FROM `mall_monitor_cominfo` WHERE ( com_state = '0' ) ORDER BY store_id desc LIMIT 0,20  
+[2016-04-06 17:08:24] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Table 'mall1.mall_monitor_cominfo' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_monitor_cominfo` WHERE ( com_state = '0' ) LIMIT 1  
+[2016-04-06 17:08:24] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Table 'mall1.mall_monitor_cominfo' doesn't exist
+SELECT com_ip,username,com_name,com_state FROM `mall_monitor_cominfo` WHERE ( com_state = '0' ) ORDER BY store_id desc LIMIT 0,20  
+[2016-04-06 17:08:53] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Table 'mall1.mall_monitor_cominfo' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_monitor_cominfo` LIMIT 1  
+[2016-04-06 17:08:53] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Table 'mall1.mall_monitor_cominfo' doesn't exist
+SELECT com_ip,username,com_name,com_state FROM `mall_monitor_cominfo` ORDER BY store_id desc LIMIT 0,20  
+[2016-04-06 17:08:53] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Table 'mall1.mall_monitor_cominfo' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_monitor_cominfo` LIMIT 1  
+[2016-04-06 17:08:53] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Table 'mall1.mall_monitor_cominfo' doesn't exist
+SELECT com_ip,username,com_name,com_state FROM `mall_monitor_cominfo` ORDER BY store_id desc LIMIT 0,20  
+[2016-04-06 17:08:54] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Table 'mall1.mall_monitor_cominfo' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_monitor_cominfo` LIMIT 1  
+[2016-04-06 17:08:54] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Table 'mall1.mall_monitor_cominfo' doesn't exist
+SELECT com_ip,username,com_name,com_state FROM `mall_monitor_cominfo` ORDER BY store_id desc LIMIT 0,20  
+[2016-04-06 17:08:55] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Table 'mall1.mall_monitor_cominfo' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_monitor_cominfo` LIMIT 1  
+[2016-04-06 17:08:55] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Table 'mall1.mall_monitor_cominfo' doesn't exist
+SELECT com_ip,username,com_name,com_state FROM `mall_monitor_cominfo` ORDER BY store_id desc LIMIT 0,20  
+[2016-04-06 17:09:31] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Table 'mall1.mall_monitor_cominfo' doesn't exist
+SELECT * FROM `mall_monitor_cominfo` LIMIT 30  
+[2016-04-06 17:09:44] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Table 'mall1.mall_monitor_cominfo' doesn't exist
+SELECT * FROM `mall_monitor_cominfo` LIMIT 30  
+[2016-04-06 18:37:48] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'store_id' in 'order clause'
+SELECT com_ip,username,com_name,com_state FROM `mall_monitor_cominfo` ORDER BY store_id desc LIMIT 0,20  
+[2016-04-06 18:37:52] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'store_id' in 'order clause'
+SELECT com_ip,username,com_name,com_state FROM `mall_monitor_cominfo` ORDER BY store_id desc LIMIT 0,20  
+[2016-04-06 18:58:29] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'store_id' in 'order clause'
+SELECT com_ip,username,com_name,com_state FROM `mall_monitor_cominfo` ORDER BY store_id desc LIMIT 0,20  
+[2016-04-06 18:58:29] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'store_id' in 'order clause'
+SELECT com_ip,username,com_name,com_state FROM `mall_monitor_cominfo` ORDER BY store_id desc LIMIT 0,20  
+[2016-04-06 18:58:30] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'store_id' in 'order clause'
+SELECT com_ip,username,com_name,com_state FROM `mall_monitor_cominfo` ORDER BY store_id desc LIMIT 0,20  
+[2016-04-06 18:58:30] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'store_id' in 'order clause'
+SELECT com_ip,username,com_name,com_state FROM `mall_monitor_cominfo` ORDER BY store_id desc LIMIT 0,20  
+[2016-04-06 18:58:31] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'store_id' in 'order clause'
+SELECT com_ip,username,com_name,com_state FROM `mall_monitor_cominfo` ORDER BY store_id desc LIMIT 0,20  
+[2016-04-06 18:58:31] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'store_id' in 'order clause'
+SELECT com_ip,username,com_name,com_state FROM `mall_monitor_cominfo` ORDER BY store_id desc LIMIT 0,20  
+[2016-04-06 18:58:31] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'store_id' in 'order clause'
+SELECT com_ip,username,com_name,com_state FROM `mall_monitor_cominfo` ORDER BY store_id desc LIMIT 0,20  
+[2016-04-06 18:58:31] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'store_id' in 'order clause'
+SELECT com_ip,username,com_name,com_state FROM `mall_monitor_cominfo` ORDER BY store_id desc LIMIT 0,20  
+[2016-04-06 18:58:31] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'store_id' in 'order clause'
+SELECT com_ip,username,com_name,com_state FROM `mall_monitor_cominfo` ORDER BY store_id desc LIMIT 0,20  
+[2016-04-06 18:58:31] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'store_id' in 'order clause'
+SELECT com_ip,username,com_name,com_state FROM `mall_monitor_cominfo` ORDER BY store_id desc LIMIT 0,20  
+[2016-04-06 18:58:32] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'store_id' in 'order clause'
+SELECT com_ip,username,com_name,com_state FROM `mall_monitor_cominfo` ORDER BY store_id desc LIMIT 0,20  
+[2016-04-06 19:07:13] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'store_id' in 'order clause'
+SELECT com_ip,username,com_name,com_state FROM `mall_monitor_cominfo` ORDER BY store_id desc LIMIT 0,20  
+[2016-04-06 19:07:14] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'store_id' in 'order clause'
+SELECT com_ip,username,com_name,com_state FROM `mall_monitor_cominfo` ORDER BY store_id desc LIMIT 0,20  
+[2016-04-06 19:07:14] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'store_id' in 'order clause'
+SELECT com_ip,username,com_name,com_state FROM `mall_monitor_cominfo` ORDER BY store_id desc LIMIT 0,20  
+[2016-04-06 19:07:15] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'store_id' in 'order clause'
+SELECT com_ip,username,com_name,com_state FROM `mall_monitor_cominfo` ORDER BY store_id desc LIMIT 0,20  
+[2016-04-06 19:18:56] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NULL)  ) LIMIT 1' at line 1
+SELECT COUNT(*) AS nc_count FROM `mall_monitor_cominfo` WHERE ( (com_ip  NULL)  ) LIMIT 1  
+[2016-04-06 19:18:56] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NULL)  ) ORDER BY com_id desc LIMIT 0,20' at line 1
+SELECT com_ip,username,com_name,com_state FROM `mall_monitor_cominfo` WHERE ( (com_ip  NULL)  ) ORDER BY com_id desc LIMIT 0,20  
+[2016-04-06 20:46:28] /admin/index.php?act=store&op=store_msg&com_ip=2&username=&com_name= ( act=store&op=store_msg ) 
+ERR: Db Error: Unknown column 'is_read' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `mall_store` WHERE ( is_read = '1' ) LIMIT 1  
+[2016-04-06 20:46:28] /admin/index.php?act=store&op=store_msg&com_ip=2&username=&com_name= ( act=store&op=store_msg ) 
+ERR: Db Error: Unknown column 'sender' in 'field list'
+SELECT sender,store_name,store_msg,send_time,is_read FROM `mall_store` WHERE ( is_read = '1' ) ORDER BY store_id desc LIMIT 0,20  
+[2016-04-06 20:47:51] /admin/index.php?act=store&op=store_msg&com_ip=2&username=&com_name= ( act=store&op=store_msg ) 
+ERR: Db Error: Unknown column 'is_read' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `mall_store` WHERE ( is_read = '1' ) LIMIT 1  
+[2016-04-06 20:47:51] /admin/index.php?act=store&op=store_msg&com_ip=2&username=&com_name= ( act=store&op=store_msg ) 
+ERR: Db Error: Unknown column 'sender' in 'field list'
+SELECT sender,store_name,store_msg,send_time,is_read FROM `mall_store` WHERE ( is_read = '1' ) ORDER BY store_id desc LIMIT 0,20  
+[2016-04-06 20:48:46] /admin/index.php?act=store&op=store_msg&sender=&store_name=&search_stime=&search_etime=&is_read=1 ( act=store&op=store_msg ) 
+ERR: Db Error: Unknown column 'is_read' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `mall_store` WHERE ( is_read = '1' ) LIMIT 1  
+[2016-04-06 20:48:46] /admin/index.php?act=store&op=store_msg&sender=&store_name=&search_stime=&search_etime=&is_read=1 ( act=store&op=store_msg ) 
+ERR: Db Error: Unknown column 'sender' in 'field list'
+SELECT sender,store_name,store_msg,send_time,is_read FROM `mall_store` WHERE ( is_read = '1' ) ORDER BY store_id desc LIMIT 0,20  

@@ -1,0 +1,18 @@
+[2016-04-16 11:42:25] /admin/index.php?act=store&op=store&ip=1 ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'com_cpu_use_' in 'field list'
+UPDATE `mall_monitor` SET com_mem_use_state='2',com_mem_use='0',com_cpu_use_state='2',com_cpu_use_='0',com_cpu_temp_state='1',com_cpu_temp='999' WHERE ( com_ip = '1' )
+[2016-04-16 11:47:48] /admin/index.php?act=store&op=store&ip=1 ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'com_cpu_use_' in 'field list'
+UPDATE `mall_monitor` SET com_mem_use_state='2',com_mem_use='0',com_cpu_use_state='2',com_cpu_use_='0',com_cpu_temp_state='1',com_cpu_temp='999' WHERE ( com_ip = '1' )
+[2016-04-16 11:48:30] /admin/index.php?act=store&op=store&ip=1 ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'com_cpu_use_' in 'field list'
+UPDATE `mall_monitor` SET com_mem_use_state='2',com_mem_use='0',com_cpu_use_state='2',com_cpu_use_='0',com_cpu_temp_state='1',com_cpu_temp='999' WHERE ( com_ip = '1' )
+[2016-04-16 11:49:41] /admin/index.php?act=store&op=store&ip=1 ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'com_cpu_use_' in 'field list'
+UPDATE `mall_monitor` SET com_mem_use_state='2',com_mem_use='0',com_cpu_use_state='2',com_cpu_use_='0',com_cpu_temp_state='1',com_cpu_temp='999' WHERE ( com_ip = '1' )
+[2016-04-16 11:51:16] /admin/index.php?act=store&op=store&ip=1 ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'com_cpu_use_' in 'field list'
+UPDATE `mall_monitor` SET com_mem_use_state='2',com_mem_use='1',com_cpu_use_state='2',com_cpu_use_='1',com_cpu_temp_state='2',com_cpu_temp='1' WHERE ( com_ip = '1' )
+[2016-04-16 11:56:42] /admin/index.php?act=store&op=store&ip=1 ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'com_cpu_use_' in 'field list'
+UPDATE `mall_monitor` SET com_mem_use_state='1',com_mem_use='1',com_cpu_use_state='1',com_cpu_use_='2',com_cpu_temp_state='2',com_cpu_temp='2' WHERE ( com_ip = '1' )

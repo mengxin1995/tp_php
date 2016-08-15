@@ -1,0 +1,45 @@
+[2016-03-31 13:47:06] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_cms_article' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_cms_article` WHERE ( article_state = '2' ) LIMIT 1  
+[2016-03-31 13:47:06] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_circle' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_circle` WHERE ( circle_status = '2' ) LIMIT 1  
+[2016-03-31 14:37:46] /admin/index.php?act=store&op=sendmsg_show&store_id=431 ( act=store&op=sendmsg_show ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'send_time='1459406266',sender=NULL WHERE ( store_id = '431' )' at line 1
+UPDATE `mall_store` SET store_msg='阿三大师傅',is_read=,send_time='1459406266',sender=NULL WHERE ( store_id = '431' )
+[2016-03-31 14:38:18] /admin/index.php?act=store&op=sendmsg_show&store_id=431 ( act=store&op=sendmsg_show ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'send_time='1459406298',sender=NULL WHERE ( store_id = '431' )' at line 1
+UPDATE `mall_store` SET store_msg='啊沙发沙发的打算',is_read=,send_time='1459406298',sender=NULL WHERE ( store_id = '431' )
+[2016-03-31 14:39:18] /admin/index.php?act=store&op=sendmsg_show&store_id=431 ( act=store&op=sendmsg_show ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'send_time='1459406358',sender=NULL WHERE ( store_id = '431' )' at line 1
+UPDATE `mall_store` SET store_msg='撒发生地方阿斯顿',is_read=,send_time='1459406358',sender=NULL WHERE ( store_id = '431' )
+[2016-03-31 14:39:52] /admin/index.php?act=store&op=sendmsg_show&store_id=431 ( act=store&op=sendmsg_show ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'send_time='1459406392',sender=NULL WHERE ( store_id = '431' )' at line 1
+UPDATE `mall_store` SET store_msg='萨芬撒打发斯蒂芬',is_read=,send_time='1459406392',sender=NULL WHERE ( store_id = '431' )
+[2016-03-31 14:47:39] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_cms_article' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_cms_article` WHERE ( article_state = '2' ) LIMIT 1  
+[2016-03-31 14:47:39] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_circle' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_circle` WHERE ( circle_status = '2' ) LIMIT 1  
+[2016-03-31 14:50:55] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_cms_article' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_cms_article` WHERE ( article_state = '2' ) LIMIT 1  
+[2016-03-31 14:50:55] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_circle' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_circle` WHERE ( circle_status = '2' ) LIMIT 1  
+[2016-03-31 14:53:37] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_cms_article' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_cms_article` WHERE ( article_state = '2' ) LIMIT 1  
+[2016-03-31 14:53:37] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_circle' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_circle` WHERE ( circle_status = '2' ) LIMIT 1  
+[2016-03-31 15:01:29] /shop/index.php?act=member&op=ajax_load_sns_info ( act=member&op=ajax_load_sns_info ) 
+ERR: Db Error: Table 'mall1.mall_circle_member' doesn't exist
+SELECT * FROM `mall_circle_member` WHERE ( member_id = '3358' ) LIMIT 1000  
+[2016-03-31 21:29:06] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_cms_article' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_cms_article` WHERE ( article_state = '2' ) LIMIT 1  
+[2016-03-31 21:29:06] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_circle' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_circle` WHERE ( circle_status = '2' ) LIMIT 1  

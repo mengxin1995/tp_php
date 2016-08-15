@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>村村兔</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+<header class="main">
+	<div class="header-wrap">
+		<div class="htsearch-wrap with-home-logo">
+			<input type="text" class="htsearch-input clr-999" value="" id="search_text" placeholder="搜索商品/店铺" readonly= "true"/>
+			<!--<a href="javascript:void(0);" class="search-btn"></a>-->
+		</div>
+	</div>
+</header>
+<div id="site" style="text-align: center"></div>
+<div id="site_id" style="text-align: center"></div>
+<div class="main" id="main-container"></div>
+<footer id="footer" class="main"></footer>
+<script type="text/html" id="adv_list">
+	<div class="adv_list">
+		<div class="swipe-wrap">
+		<% for (var i in item) { %>
+			<div class="item">
+				<a href="<%= item[i].url %>">
+					<img src="<%= item[i].image %>" alt="">
+				</a>
+			</div>
+		<% } %>
+		</div>
+	</div>
+	<!--<div class="main nav-ico">-->
+		<!--<a href="<%=WapSiteUrl%>"><i></i>首页</a>-->
+		<!--<a href="<%=WapSiteUrl%>/tmpl/product_first_categroy.html"><i></i>所有分类</a>-->
+		<!--<a href="<%=WapTplUrl%>/cart_list.html"><i></i>购物车</a>-->
+		<!--<a href="<%=WapTplUrl%>/member/member.html?act=member"><i></i>个人中心</a>-->
+	<!--</div>-->
+</script>
+<script type="text/html" id="home1">
+	<div class="index_block home1">
+	<% if (title) { %>
+		<div class="title"><%= title %></div>
+	<% } %>
+		<div class="content">
+			<div class="item">
+				<a href="<%= url %>">
+					<img src="<%= image %>" alt="">
+				</a>
+			</div>
+		</div>
+	</div>
+</script>
+<script type="text/html" id="home2">
+	<div class="index_block home2">
+	<% if (title) { %>
+		<div class="title"><%= title %></div>
+	<% } %>
+		<div class="content">
+			<div class="item home2_1">
+				<a href="<%= square_url %>"><img src="<%= square_image %>" alt=""></a>
+			</div>
+			<div class="item home2_2">
+				<div class="border-left">
+					<div class="border-bottom">
+						<a href="<%= rectangle1_url %>"><img src="<%= rectangle1_image %>" alt=""></a>
+					</div>
+					<div>
+						<a href="<%= rectangle2_url %>"><img src="<%= rectangle2_image %>" alt=""></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</script>
+<script type="text/html" id="home3">
+	<div class="index_block home3">
+	<% if (title) { %>
+		<div class="title"><%= title %></div>
+	<% } %>
+		<div class="content">
+		<% for (var i in item) { %>
+			<div class="item" style="width: 48%">
+				<a href="<%= item[i].url %>"><img src="<%= item[i].image %>" alt=""></a>
+			</div>
+		<% } %>
+		</div>
+	</div>
+</script>
+<script type="text/html" id="home4">
+	<div class="index_block home2">
+	<% if (title) { %>
+		<div class="title"><%= title %></div>
+	<% } %>
+		<div class="content">
+			<div class="item home2_2">
+				<div class="border-right">
+					<div class="border-bottom">
+						<a href="<%= rectangle1_url %>"><img src="<%= rectangle1_image %>" alt=""></a>
+					</div>
+					<div>
+						<a href="<%= rectangle2_url %>"><img src="<%= rectangle2_image %>" alt=""></a>
+					</div>
+				</div>
+			</div>
+			<div class="item home2_1">
+				<a href="<%= square_url %>"><img src="<%= square_image %>" alt=""></a>
+			</div>
+		</div>
+	</div>
+</script>
+<script type="text/html" id="home5">
+	<div class="index_block home3">
+		<% if (title) { %>
+		<div class="title"><%= title %></div>
+		<% } %>
+		<div class="content">
+			<% for (var i in item) { %>
+			<div class="item">
+				<a href="<%= item[i].url %>"><img src="<%= item[i].image %>" alt=""></a>
+			</div>
+			<% } %>
+		</div>
+	</div>
+</script>
+<!--每日一品-->
+<script type="text/html" id="home6">
+	<div class="index_block home6" style="background-color: white">
+		<img class="top_left" src="images/sale1.png" style="height:25px;"/>
+		<% if (title) { %>
+		<span class="top_word"><%= title %></span>
+		<% } %>
+		<% if (data=="mryp"){ %>
+		<span class="remain_word">剩余时间:</span>
+		<span  class="time-remain" count_down=""><em time_id="h"class="remain_time">0</em>:<em time_id="m"class="remain_time">0</em>:<em time_id="s"class="remain_time">0</em> </span>
+        <div class="everyday_goods"></div>
+		<% } %>
+	</div>
+</script>
+
+<script type="text/html" id="goods">
+	<div class="index_block goods">
+	<% if (title) { %>
+		<div class="title"><%= title %></div>
+	<% } %>
+		<div class="content">
+		<% for (var i in item) { %>
+			<div class="goods-item">
+				<a href="tmpl/product_detail.html?goods_id=<%= item[i].goods_id %>">
+					<!--<div class="goods-item-pic"><img src="<%= item[i].goods_image %>" alt=""></div>-->
+					<div class="goods-item-pic"><img onload="imgsize()" src="<%= item[i].goods_image %>" alt=""></div>
+					<div class="goods-item-name"><%= item[i].goods_name %></div>
+					<div class="goods-item-price">￥<%= item[i].goods_promotion_price %></div>
+				</a>
+			</div>
+		<% } %>
+		</div>
+	</div>
+</script>
+<script type="text/html" id="goods1">
+	<div class="index_block goods">
+	<% if (title) { %>
+		<div class="title"><%= title %></div>
+	<% } %>
+		<div class="content">
+		<% for (var i in item) { %>
+			<div class="goods-item">
+			<i><div>打折</div></i>
+				<a href="tmpl/product_detail.html?goods_id=<%= item[i].goods_id %>">
+					<div class="goods-item-pic"><img src="<%= item[i].goods_image %>" alt=""></div>
+					<div class="goods-item-name"><%= item[i].goods_name %></div>
+					<div class="goods-item-price">￥<%= item[i].goods_promotion_price %><span class="goods-price">￥<%= item[i].goods_price %></span></div>
+					<div style="color:#fff;padding:1px 0px 1px 1px;font-family:'微软雅黑',arial;font-weight:bold;font-size:10px;background:#f30">距结束：<span  class="time-remain" count_down="<%= item[i].end_time %>"><em time_id="h">0</em>时 <em time_id="m">0</em>分<em time_id="s">0</em>秒 </span></div>
+				</a>
+			</div>
+		<% } %>
+		</div>
+	</div>
+</script>
+<script type="text/html" id="goods2">
+	<div class="index_block goods">
+	<% if (title) { %>
+		<div class="title"><%= title %></div>
+	<% } %>
+		<div class="content">
+		<% for (var i in item) { %>
+			<div class="goods-item">
+			<i><div>抢购</div></i>
+				<a href="tmpl/product_detail.html?goods_id=<%= item[i].goods_id %>">
+					<div class="goods-item-pic"><img src="<%= item[i].goods_image %>" alt=""></div>
+					<div class="goods-item-name"><%= item[i].goods_name %></div>
+					<div class="goods-item-price">￥<%= item[i].goods_promotion_price %><span class="goods-price">￥<%= item[i].goods_price %></span></div>
+				</a>
+			</div>
+		<% } %>
+		</div>
+	</div>
+</script>
+<script type="text/javascript" src="js/config.js"></script>
+<script type="text/javascript" src="js/zepto.min.js"></script>
+<script type="text/javascript" src="js/template.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/swipe.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/tmpl/footer.js"></script>
+</body>
+</html>
+<script type="text/javascript" >
+var d=new Date();
+var now = d.getTime();
+takeCount(now);
+function takeCount(now) {
+	    setTimeout("takeCount()", 1000);
+	    $(".time-remain").each(function(){
+	        var obj = $(this);
+	        var tms = obj.attr("count_down");
+	        if (tms>0) {
+	            tms = parseInt(tms)-1;
+                var days = Math.floor(tms / (1 * 60 * 60 * 24));
+                var hours = Math.floor(tms / (1 * 60 * 60)) % 24;
+                var minutes = Math.floor(tms / (1 * 60)) % 60;
+                var seconds = Math.floor(tms / 1) % 60;
+				if(days<10) days = "0"+days;
+				if(hours<10) hours = "0"+hours;
+				if(minutes<10) minutes = "0"+minutes;
+				if(seconds<10) seconds = "0"+seconds;
+                if (days < 0) days = 0;
+                if (hours < 0) hours = 0;
+                if (minutes < 0) minutes = 0;
+                if (seconds < 0) seconds = 0;
+                obj.find("[time_id='d']").html(days);
+                obj.find("[time_id='h']").html(hours);
+                obj.find("[time_id='m']").html(minutes);
+                obj.find("[time_id='s']").html(seconds);
+                obj.attr("count_down",tms);
+	        }
+	    });
+	}
+</script>

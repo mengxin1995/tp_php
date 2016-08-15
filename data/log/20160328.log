@@ -1,0 +1,63 @@
+[2016-03-28 21:33:17] / ( act=index&op=index ) 
+ERR: Db Error: Table '33hao.33hao_site' doesn't exist
+SELECT * FROM `33hao_site` WHERE site_id='1'
+[2016-03-28 21:33:18] / ( act=index&op=index ) 
+ERR: Db Error: Table '33hao.33hao_goods_class_nav' doesn't exist
+SELECT * FROM `33hao_goods_class_nav` WHERE ( gc_id = '1' ) LIMIT 1  
+[2016-03-28 21:33:18] / ( act=index&op=index ) 
+ERR: Db Error: Table '33hao.33hao_goods_class_nav' doesn't exist
+SELECT * FROM `33hao_goods_class_nav` WHERE ( gc_id = '2' ) LIMIT 1  
+[2016-03-28 21:33:18] / ( act=index&op=index ) 
+ERR: Db Error: Table '33hao.33hao_goods_class_nav' doesn't exist
+SELECT * FROM `33hao_goods_class_nav` WHERE ( gc_id = '3' ) LIMIT 1  
+[2016-03-28 21:33:18] / ( act=index&op=index ) 
+ERR: Db Error: Table '33hao.33hao_goods_class_nav' doesn't exist
+SELECT * FROM `33hao_goods_class_nav` WHERE ( gc_id = '256' ) LIMIT 1  
+[2016-03-28 21:33:18] / ( act=index&op=index ) 
+ERR: Db Error: Table '33hao.33hao_goods_class_nav' doesn't exist
+SELECT * FROM `33hao_goods_class_nav` WHERE ( gc_id = '308' ) LIMIT 1  
+[2016-03-28 21:33:18] / ( act=index&op=index ) 
+ERR: Db Error: Table '33hao.33hao_goods_class_nav' doesn't exist
+SELECT * FROM `33hao_goods_class_nav` WHERE ( gc_id = '470' ) LIMIT 1  
+[2016-03-28 21:33:18] / ( act=index&op=index ) 
+ERR: Db Error: Table '33hao.33hao_goods_class_nav' doesn't exist
+SELECT * FROM `33hao_goods_class_nav` WHERE ( gc_id = '530' ) LIMIT 1  
+[2016-03-28 21:33:18] / ( act=index&op=index ) 
+ERR: Db Error: Table '33hao.33hao_goods_class_nav' doesn't exist
+SELECT * FROM `33hao_goods_class_nav` WHERE ( gc_id = '593' ) LIMIT 1  
+[2016-03-28 21:33:18] / ( act=index&op=index ) 
+ERR: Db Error: Table '33hao.33hao_goods_class_nav' doesn't exist
+SELECT * FROM `33hao_goods_class_nav` WHERE ( gc_id = '662' ) LIMIT 1  
+[2016-03-28 21:33:18] / ( act=index&op=index ) 
+ERR: Db Error: Table '33hao.33hao_goods_class_nav' doesn't exist
+SELECT * FROM `33hao_goods_class_nav` WHERE ( gc_id = '730' ) LIMIT 1  
+[2016-03-28 21:33:18] / ( act=index&op=index ) 
+ERR: Db Error: Table '33hao.33hao_goods_class_nav' doesn't exist
+SELECT * FROM `33hao_goods_class_nav` WHERE ( gc_id = '825' ) LIMIT 1  
+[2016-03-28 21:33:18] / ( act=index&op=index ) 
+ERR: Db Error: Table '33hao.33hao_goods_class_nav' doesn't exist
+SELECT * FROM `33hao_goods_class_nav` WHERE ( gc_id = '888' ) LIMIT 1  
+[2016-03-28 21:33:18] / ( act=index&op=index ) 
+ERR: Db Error: Table '33hao.33hao_goods_class_nav' doesn't exist
+SELECT * FROM `33hao_goods_class_nav` WHERE ( gc_id = '959' ) LIMIT 1  
+[2016-03-28 21:33:18] / ( act=index&op=index ) 
+ERR: Db Error: Table '33hao.33hao_goods_class_nav' doesn't exist
+SELECT * FROM `33hao_goods_class_nav` WHERE ( gc_id = '1037' ) LIMIT 1  
+[2016-03-28 21:33:18] / ( act=index&op=index ) 
+ERR: Db Error: Table '33hao.33hao_web_channel' doesn't exist
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-03-28 21:33:18] / ( act=index&op=index ) 
+ERR: Db Error: Table '33hao.33hao_site' doesn't exist
+SELECT * FROM `33hao_site` WHERE site_id='1'
+[2016-03-28 21:33:18] / ( act=index&op=index ) 
+ERR: Db Error: Table '33hao.33hao_site' doesn't exist
+SELECT * FROM `33hao_site` as `site`  WHERE  site_id != '1' order by site_id
+[2016-03-28 21:33:18] / ( act=index&op=index ) 
+ERR: Db Error: Table '33hao.33hao_site' doesn't exist
+SELECT * FROM `33hao_site` WHERE site_id='1'
+[2016-03-28 21:33:18] / ( act=index&op=index ) 
+ERR: Db Error: Table '33hao.33hao_site' doesn't exist
+SELECT * FROM `33hao_site` as `site`  WHERE  site_id != '1' order by site_id
+[2016-03-28 21:33:18] / ( act=index&op=index ) 
+ERR: Db Error: Unknown column 'site_id' in 'where clause'
+SELECT * FROM `33hao_web` WHERE ( web_show = '1' ) AND ( site_id = '1' ) AND ( web_page LIKE 'index%' ) ORDER BY web_sort LIMIT 1000  

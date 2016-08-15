@@ -1,0 +1,15 @@
+#禁止机器人检索某些目录
+User-agent: *
+Disallow: /a*/
+Disallow: /b*/
+Disallow: /c*/
+Disallow: /d*/
+Disallow: /e*/
+Disallow: /m*/
+Disallow: /p*/
+Disallow: /q*/
+Disallow: /t*/
+Disallow: /w*/
+Disallow: /x*/
+Disallow: /y*/
+Disallow: /z*/

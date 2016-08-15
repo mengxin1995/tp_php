@@ -1,0 +1,78 @@
+[2016-03-23 16:29:20] /shop/index.php?act=member_order ( act=member_order&op=index ) 
+ERR: Db Error: Table 'mall1.mall1_site' doesn't exist
+SELECT * FROM `mall1_site` WHERE site_id='1'
+[2016-03-23 16:29:21] /shop/index.php?act=member_order ( act=member_order&op=index ) 
+ERR: Db Error: Table 'mall1.mall1_web_channel' doesn't exist
+SELECT * FROM `mall1_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-03-23 16:29:21] /shop/index.php?act=member_order ( act=member_order&op=index ) 
+ERR: Db Error: Table 'mall1.mall1_site' doesn't exist
+SELECT * FROM `mall1_site` WHERE site_id='1'
+[2016-03-23 16:29:21] /shop/index.php?act=member_order ( act=member_order&op=index ) 
+ERR: Db Error: Table 'mall1.mall1_site' doesn't exist
+SELECT * FROM `mall1_site` as `site`  WHERE  site_id != '1' order by site_id
+[2016-03-23 16:29:21] /shop/index.php?act=member_order ( act=member_order&op=index ) 
+ERR: Db Error: Table 'mall1.mall1_member' doesn't exist
+SELECT * FROM `mall1_member` WHERE ( member_id = '1' ) LIMIT 1  
+[2016-03-23 16:29:21] /shop/index.php?act=member_order ( act=member_order&op=index ) 
+ERR: Db Error: Table 'mall1.mall1_setting' doesn't exist
+SELECT * FROM `mall1_setting` as `setting`  
+[2016-03-23 16:29:21] /shop/index.php?act=member_order ( act=member_order&op=index ) 
+ERR: Db Error: Table 'mall1.mall1_order' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall1_order` WHERE ( buyer_id = '1' ) AND ( delete_state = '0' ) LIMIT 1  
+[2016-03-23 16:29:21] /shop/index.php?act=member_order ( act=member_order&op=index ) 
+ERR: Db Error: Table 'mall1.mall1_order' doesn't exist
+SELECT * FROM `mall1_order` WHERE ( buyer_id = '1' ) AND ( delete_state = '0' ) ORDER BY order_id desc LIMIT 0,20  
+[2016-03-23 16:29:21] /shop/index.php?act=member_order ( act=member_order&op=index ) 
+ERR: Db Error: Table 'mall1.mall1_refund_return' doesn't exist
+SELECT * FROM `mall1_refund_return` WHERE ( order_id IN('') ) ORDER BY refund_id desc LIMIT 1000  
+[2016-03-23 16:29:21] /shop/index.php?act=member_order ( act=member_order&op=index ) 
+ERR: Db Error: Table 'mall1.mall1_order_pay' doesn't exist
+SELECT * FROM `mall1_order_pay` WHERE ( pay_sn IN('') ) LIMIT 1000  
+[2016-03-23 16:30:46] /shop/index.php?act=member&op=ajax_load_sns_info ( act=member&op=ajax_load_sns_info ) 
+ERR: Db Error: Table 'mall1.mall_circle_member' doesn't exist
+SELECT * FROM `mall_circle_member` WHERE ( member_id = '3358' ) LIMIT 1000  
+[2016-03-23 16:37:21] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_cms_article' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_cms_article` WHERE ( article_state = '2' ) LIMIT 1  
+[2016-03-23 16:37:21] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_circle' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_circle` WHERE ( circle_status = '2' ) LIMIT 1  
+[2016-03-23 16:38:10] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_cms_article' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_cms_article` WHERE ( article_state = '2' ) LIMIT 1  
+[2016-03-23 16:38:10] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_circle' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_circle` WHERE ( circle_status = '2' ) LIMIT 1  
+[2016-03-23 16:38:42] /shop/index.php?act=store_order&op=index&val=0&state_type=store_order&query_start_date=&query_end_date=&query_start_date_pay=&query_end_date_pay=&query_start_date_send=&query_end_date_send=&buyer_name=&goods_name=&goods_address=&order_sn= ( act=store_order&op=index ) 
+ERR: Db Error: Unknown column 'goods_position' in 'field list'
+SELECT goods_position FROM `mall_goods` WHERE ( goods_id = '52493' ) LIMIT 1000  
+[2016-03-23 16:38:42] /shop/index.php?act=store_order&op=index&val=0&state_type=store_order&query_start_date=&query_end_date=&query_start_date_pay=&query_end_date_pay=&query_start_date_send=&query_end_date_send=&buyer_name=&goods_name=&goods_address=&order_sn= ( act=store_order&op=index ) 
+ERR: Db Error: Unknown column 'goods_position' in 'field list'
+SELECT goods_position FROM `mall_goods` WHERE ( goods_id = '52488' ) LIMIT 1000  
+[2016-03-23 16:38:42] /shop/index.php?act=store_order&op=index&val=0&state_type=store_order&query_start_date=&query_end_date=&query_start_date_pay=&query_end_date_pay=&query_start_date_send=&query_end_date_send=&buyer_name=&goods_name=&goods_address=&order_sn= ( act=store_order&op=index ) 
+ERR: Db Error: Unknown column 'goods_position' in 'field list'
+SELECT goods_position FROM `mall_goods` WHERE ( goods_id = '52493' ) LIMIT 1000  
+[2016-03-23 16:38:42] /shop/index.php?act=store_order&op=index&val=0&state_type=store_order&query_start_date=&query_end_date=&query_start_date_pay=&query_end_date_pay=&query_start_date_send=&query_end_date_send=&buyer_name=&goods_name=&goods_address=&order_sn= ( act=store_order&op=index ) 
+ERR: Db Error: Unknown column 'goods_position' in 'field list'
+SELECT goods_position FROM `mall_goods` WHERE ( goods_id = '52492' ) LIMIT 1000  
+[2016-03-23 16:38:42] /shop/index.php?act=store_order&op=index&val=0&state_type=store_order&query_start_date=&query_end_date=&query_start_date_pay=&query_end_date_pay=&query_start_date_send=&query_end_date_send=&buyer_name=&goods_name=&goods_address=&order_sn= ( act=store_order&op=index ) 
+ERR: Db Error: Unknown column 'goods_position' in 'field list'
+SELECT goods_position FROM `mall_goods` WHERE ( goods_id = '52491' ) LIMIT 1000  
+[2016-03-23 16:38:42] /shop/index.php?act=store_order&op=index&val=0&state_type=store_order&query_start_date=&query_end_date=&query_start_date_pay=&query_end_date_pay=&query_start_date_send=&query_end_date_send=&buyer_name=&goods_name=&goods_address=&order_sn= ( act=store_order&op=index ) 
+ERR: Db Error: Unknown column 'goods_position' in 'field list'
+SELECT goods_position FROM `mall_goods` WHERE ( goods_id = '52493' ) LIMIT 1000  
+[2016-03-23 16:38:42] /shop/index.php?act=store_order&op=index&val=0&state_type=store_order&query_start_date=&query_end_date=&query_start_date_pay=&query_end_date_pay=&query_start_date_send=&query_end_date_send=&buyer_name=&goods_name=&goods_address=&order_sn= ( act=store_order&op=index ) 
+ERR: Db Error: Unknown column 'goods_position' in 'field list'
+SELECT goods_position FROM `mall_goods` WHERE ( goods_id = '52488' ) LIMIT 1000  
+[2016-03-23 16:38:42] /shop/index.php?act=store_order&op=index&val=0&state_type=store_order&query_start_date=&query_end_date=&query_start_date_pay=&query_end_date_pay=&query_start_date_send=&query_end_date_send=&buyer_name=&goods_name=&goods_address=&order_sn= ( act=store_order&op=index ) 
+ERR: Db Error: Unknown column 'goods_position' in 'field list'
+SELECT goods_position FROM `mall_goods` WHERE ( goods_id = '52493' ) LIMIT 1000  
+[2016-03-23 16:38:42] /shop/index.php?act=store_order&op=index&val=0&state_type=store_order&query_start_date=&query_end_date=&query_start_date_pay=&query_end_date_pay=&query_start_date_send=&query_end_date_send=&buyer_name=&goods_name=&goods_address=&order_sn= ( act=store_order&op=index ) 
+ERR: Db Error: Unknown column 'goods_position' in 'field list'
+SELECT goods_position FROM `mall_goods` WHERE ( goods_id = '52492' ) LIMIT 1000  
+[2016-03-23 16:38:42] /shop/index.php?act=store_order&op=index&val=0&state_type=store_order&query_start_date=&query_end_date=&query_start_date_pay=&query_end_date_pay=&query_start_date_send=&query_end_date_send=&buyer_name=&goods_name=&goods_address=&order_sn= ( act=store_order&op=index ) 
+ERR: Db Error: Unknown column 'goods_position' in 'field list'
+SELECT goods_position FROM `mall_goods` WHERE ( goods_id = '52493' ) LIMIT 1000  
+[2016-03-23 16:38:42] /shop/index.php?act=store_order&op=index&val=0&state_type=store_order&query_start_date=&query_end_date=&query_start_date_pay=&query_end_date_pay=&query_start_date_send=&query_end_date_send=&buyer_name=&goods_name=&goods_address=&order_sn= ( act=store_order&op=index ) 
+ERR: Db Error: Unknown column 'goods_position' in 'field list'
+SELECT goods_position FROM `mall_goods` WHERE ( goods_id = '52488' ) LIMIT 1000  

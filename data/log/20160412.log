@@ -1,0 +1,6 @@
+[2016-04-12 15:18:24] /admin/index.php?act=store&op=store_msg ( act=store&op=store_msg ) 
+ERR: Db Error: Unknown column 'is_read' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `mall_store` WHERE ( is_read = '1' ) LIMIT 1  
+[2016-04-12 15:18:25] /admin/index.php?act=store&op=store_msg ( act=store&op=store_msg ) 
+ERR: Db Error: Unknown column 'sender' in 'field list'
+SELECT sender,store_name,store_msg,send_time,is_read FROM `mall_store` WHERE ( is_read = '1' ) ORDER BY store_id desc LIMIT 0,20  

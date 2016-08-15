@@ -1,0 +1,102 @@
+[2016-03-30 09:07:40] /shop/index.php?act=store_im&op=get_user_list&seller_id=435 ( act=store_im&op=get_user_list ) 
+ERR: Db Error: Table 'mall1.mall_chat_msg' doesn't exist
+SELECT count(DISTINCT t_id) as count FROM `mall_chat_msg` WHERE (  (add_time BETWEEN '1454083200' AND '1459353599' ) ) AND ( f_id = '3357' ) LIMIT 1  
+[2016-03-30 09:07:40] /shop/index.php?act=store_im&op=get_user_list&seller_id=435 ( act=store_im&op=get_user_list ) 
+ERR: Db Error: Table 'mall1.mall_chat_msg' doesn't exist
+SELECT count(DISTINCT f_id) as count FROM `mall_chat_msg` WHERE (  (add_time BETWEEN '1454083200' AND '1459353599' ) ) AND ( t_id = '3357' ) LIMIT 1  
+[2016-03-30 15:59:30] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_cms_article' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_cms_article` WHERE ( article_state = '2' ) LIMIT 1  
+[2016-03-30 15:59:30] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_circle' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_circle` WHERE ( circle_status = '2' ) LIMIT 1  
+[2016-03-30 16:03:05] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_cms_article' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_cms_article` WHERE ( article_state = '2' ) LIMIT 1  
+[2016-03-30 16:03:05] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_circle' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_circle` WHERE ( circle_status = '2' ) LIMIT 1  
+[2016-03-30 16:03:17] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_cms_article' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_cms_article` WHERE ( article_state = '2' ) LIMIT 1  
+[2016-03-30 16:03:17] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_circle' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_circle` WHERE ( circle_status = '2' ) LIMIT 1  
+[2016-03-30 16:05:23] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_cms_article' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_cms_article` WHERE ( article_state = '2' ) LIMIT 1  
+[2016-03-30 16:05:23] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_circle' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_circle` WHERE ( circle_status = '2' ) LIMIT 1  
+[2016-03-30 16:07:06] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_cms_article' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_cms_article` WHERE ( article_state = '2' ) LIMIT 1  
+[2016-03-30 16:07:06] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_circle' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_circle` WHERE ( circle_status = '2' ) LIMIT 1  
+[2016-03-30 16:23:21] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_cms_article' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_cms_article` WHERE ( article_state = '2' ) LIMIT 1  
+[2016-03-30 16:23:21] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_circle' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_circle` WHERE ( circle_status = '2' ) LIMIT 1  
+[2016-03-30 16:29:44] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_cms_article' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_cms_article` WHERE ( article_state = '2' ) LIMIT 1  
+[2016-03-30 16:29:44] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_circle' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_circle` WHERE ( circle_status = '2' ) LIMIT 1  
+[2016-03-30 16:39:16] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_cms_article' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_cms_article` WHERE ( article_state = '2' ) LIMIT 1  
+[2016-03-30 16:39:16] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_circle' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_circle` WHERE ( circle_status = '2' ) LIMIT 1  
+[2016-03-30 17:56:08] /admin/index.php?act=store&op=sendmsg_show&store_id=432 ( act=store&op=sendmsg_show ) 
+ERR: Db Error: Unknown column 'store.store_id' in 'where clause'
+SELECT * FROM `mall_store_grade` as `store_grade`  WHERE  store.store_id = '432' order by sg_id
+[2016-03-30 18:02:26] /admin/index.php?act=store&op=sendmsg_show&store_id=432 ( act=store&op=sendmsg_show ) 
+ERR: Db Error: Unknown column 'store.store_id' in 'where clause'
+SELECT * FROM `mall_store_grade` as `store_grade`  WHERE  store.store_id = '432' order by sg_id
+[2016-03-30 18:04:48] /admin/index.php?act=store&op=sendmsg_show&store_id=432 ( act=store&op=sendmsg_show ) 
+ERR: Db Error: Unknown column 'store.store_id' in 'where clause'
+SELECT * FROM `mall_store_grade` as `store_grade`  WHERE  store.store_id = '432' order by sg_id
+[2016-03-30 18:07:08] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_cms_article' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_cms_article` WHERE ( article_state = '2' ) LIMIT 1  
+[2016-03-30 18:07:08] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_circle' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_circle` WHERE ( circle_status = '2' ) LIMIT 1  
+[2016-03-30 18:16:05] /shop/index.php?act=member&op=ajax_load_sns_info ( act=member&op=ajax_load_sns_info ) 
+ERR: Db Error: Table 'mall1.mall_circle_member' doesn't exist
+SELECT * FROM `mall_circle_member` WHERE ( member_id = '3357' ) LIMIT 1000  
+[2016-03-30 18:16:50] /shop/index.php?act=member&op=ajax_load_sns_info ( act=member&op=ajax_load_sns_info ) 
+ERR: Db Error: Table 'mall1.mall_circle_member' doesn't exist
+SELECT * FROM `mall_circle_member` WHERE ( member_id = '3358' ) LIMIT 1000  
+[2016-03-30 18:33:01] /admin/index.php?act=store&op=sendmsg_show&store_id=432 ( act=store&op=sendmsg_show ) 
+ERR: Db Error: Unknown column 'store.store_id' in 'where clause'
+SELECT * FROM `mall_store_grade` as `store_grade`  WHERE  store.store_id = '432' order by sg_id
+[2016-03-30 19:50:35] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_cms_article' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_cms_article` WHERE ( article_state = '2' ) LIMIT 1  
+[2016-03-30 19:50:35] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_circle' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_circle` WHERE ( circle_status = '2' ) LIMIT 1  
+[2016-03-30 19:52:48] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_cms_article' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_cms_article` WHERE ( article_state = '2' ) LIMIT 1  
+[2016-03-30 19:52:48] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_circle' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_circle` WHERE ( circle_status = '2' ) LIMIT 1  
+[2016-03-30 19:56:11] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_cms_article' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_cms_article` WHERE ( article_state = '2' ) LIMIT 1  
+[2016-03-30 19:56:11] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_circle' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_circle` WHERE ( circle_status = '2' ) LIMIT 1  
+[2016-03-30 19:56:20] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_cms_article' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_cms_article` WHERE ( article_state = '2' ) LIMIT 1  
+[2016-03-30 19:56:20] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'mall1.mall_circle' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `mall_circle` WHERE ( circle_status = '2' ) LIMIT 1  
